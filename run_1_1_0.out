@@ -1,0 +1,309 @@
+Start of job on  Wed Sep 14 15:36:29 CEST 2022
+LHAPDF_BASE is set to: /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/lhapdf/6.2.1-pafccj3
+/pool/condor/dir_2001
+I am here:
+/pool/condor/dir_2001
+SVN status Begin
+/afs/cern.ch/user/j/jiyoo/CMSSW_10_6_21/src/genproductions/bin/Powheg/boosted/POWHEG-BOX/HZJ
+no svn repository found
+/afs/cern.ch/user/j/jiyoo/CMSSW_10_6_21/src/genproductions/bin/Powheg/boosted/POWHEG-BOX
+URL: svn://powhegbox.mib.infn.it/trunk/POWHEG-BOX-V2
+Rev.3987
+Warning: not a clean version:
+M       include/pwhg_lhrwgt.h
+M       include/pwhg_rwl.h
+M       lhefwrite.f
+M       rwl_weightlists.f
+SVN status End
+  found input file powheg.input
+  opened powheg.input
+  powheginput keyword compress_lhe         absent; set to   -1000000.0000000000     
+  powheginput keyword compress_upb         absent; set to   -1000000.0000000000     
+  powheginput keyword testplots            set to    1.0000000000000000     
+  powheginput keyword numevts              set to    1.0000000000000000     
+  powheginput keyword storemintupb         absent; set to   -1000000.0000000000     
+  powheginput keyword fastbtlbound         set to    1.0000000000000000     
+  powheginput keyword mintupbratlim        absent; set to   -1000000.0000000000     
+  powheginput keyword StoredubNoOutliers   absent; set to   -1000000.0000000000     
+  powheginput keyword maxseeds             absent; set to   -1000000.0000000000     
+  powheginput keyword manyseeds            set to    1.0000000000000000     
+ enter which seed
+  powheginput keyword rwl_add              absent; set to   -1000000.0000000000     
+  powheginput keyword rwl_format_rwgt      absent; set to   -1000000.0000000000     
+  powheginput keyword flg_debug            absent; set to   -1000000.0000000000     
+  powheginput keyword withnegweights       set to    1.0000000000000000     
+  powheginput keyword bornsuppfact         set to    0.0000000000000000     
+  powheginput keyword ptsupp               absent; set to   -1000000.0000000000     
+  powheginput keyword doublefsr            set to    1.0000000000000000     
+  powheginput keyword smartsig             absent; set to   -1000000.0000000000     
+  powheginput keyword withsubtr            absent; set to   -1000000.0000000000     
+  powheginput keyword hfact                absent; set to   -1000000.0000000000     
+  powheginput keyword withdamp             absent; set to   -1000000.0000000000     
+  powheginput keyword bornzerodamp         absent; set to   -1000000.0000000000     
+  powheginput keyword hdamp                absent; set to   -1000000.0000000000     
+  powheginput keyword bornonly             absent; set to   -1000000.0000000000     
+  powheginput keyword LOevents             absent; set to   -1000000.0000000000     
+  powheginput keyword novirtual            absent; set to   -1000000.0000000000     
+  powheginput keyword iseed                set to    42.000000000000000     
+  powheginput keyword rand1                absent; set to   -1000000.0000000000     
+  powheginput keyword rand2                absent; set to   -1000000.0000000000     
+  powheginput keyword iupperisr            absent; set to   -1000000.0000000000     
+  powheginput keyword iupperfsr            absent; set to   -1000000.0000000000     
+  powheginput keyword pdfreweight          absent; set to   -1000000.0000000000     
+  powheginput keyword storeinfo_rwgt       absent; set to   -1000000.0000000000     
+  powheginput keyword compute_rwgt         absent; set to   -1000000.0000000000     
+  powheginput keyword minlo                set to    1.0000000000000000     
+  powheginput keyword nnlops               absent; set to   -1000000.0000000000     
+  powheginput keyword alphas_from_pdf      absent; set to   -1000000.0000000000     
+  powheginput keyword alphas_from_lhapdf   absent; set to   -1000000.0000000000     
+  powheginput keyword ubexcess_correct     absent; set to   -1000000.0000000000     
+ RM48 INITIALIZED:        42           0         0
+  powheginput keyword par_diexp            absent; set to   -1000000.0000000000     
+  powheginput keyword par_dijexp           absent; set to   -1000000.0000000000     
+  powheginput keyword par_2gsupp           absent; set to   -1000000.0000000000     
+  powheginput keyword ih1                  set to    1.0000000000000000     
+LHAPDF 6.2.1 loading /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/lhapdf/6.2.1-pafccj3/share/LHAPDF/NNPDF31_nnlo_as_0118_mc_hessian_pdfas/NNPDF31_nnlo_as_0118_mc_hessian_pdfas_0000.dat
+NNPDF31_nnlo_as_0118_mc_hessian_pdfas PDF set, member #0, version 1; LHAPDF ID = 325300
+  powheginput keyword ih2                  set to    1.0000000000000000     
+  powheginput keyword lhans1               set to    325300.00000000000     
+  powheginput keyword lhans2               set to    325300.00000000000     
+  powheginput keyword lhapdf6maxsets       absent; set to   -1000000.0000000000     
+  check: alpha_s(Mz)=  0.11800215829284905     
+  alpha_s order (0,1,2):            2
+  Lambda 5 is   0.20839090910744684     
+  powheginput keyword ebeam1               set to    6500.0000000000000     
+  powheginput keyword ebeam2               set to    6500.0000000000000     
+  powheginput keyword bornktmin            set to    200.00000000000000     
+  powheginput keyword ptsqmin              absent; set to   -1000000.0000000000     
+  powheginput keyword charmthr             absent; set to   -1000000.0000000000     
+  powheginput keyword bottomthr            absent; set to   -1000000.0000000000     
+  powheginput keyword renscfact            set to    1.0000000000000000     
+  powheginput keyword facscfact            set to    1.0000000000000000     
+  powheginput keyword evenmaxrat           absent; set to   -1000000.0000000000     
+  powheginput keyword minlo_nnll           set to    1.0000000000000000     
+  powheginput keyword vdecaymode           set to    10.000000000000000     
+  powheginput keyword massivetop           set to    0.0000000000000000     
+  powheginput keyword massivebottom        absent; set to   -1000000.0000000000     
+
+  POWHEG: H Z J production with Z decay 
+          inclusive
+  powheginput keyword bmass                absent; set to   -1000000.0000000000     
+  powheginput keyword tmass                absent; set to   -1000000.0000000000     
+  powheginput keyword hmass                set to    125.00000000000000     
+  powheginput keyword hwidth               set to    4.0699999999999998E-003
+  powheginput keyword min_h_mass           set to    12.000000000000000     
+  powheginput keyword max_h_mass           set to    1250.0000000000000     
+  powheginput keyword min_z_mass           set to    10.000000000000000     
+  powheginput keyword max_z_mass           set to    1000.0000000000000     
+ ***********************************************
+ Decay mode of the Z boson NOT contemplated if
+ GoSam is used for the evaluation of the virtual
+ corrections
+ ***********************************************
+  powheginput keyword parallelstage        set to    1.0000000000000000     
+Unrecognized option: alpha               
+Unrecognized option: mC                  
+Unrecognized option: mB                  
+Unrecognized option: mBMS                
+Unrecognized option: me                  
+Unrecognized option: mmu                 
+Unrecognized option: mtau                
+Unrecognized option: wB                  
+Unrecognized option: wT                  
+
+  ********************************************************************
+  ********************** SAMURAI - version 2.1.1
+  ********************************************************************
+  *                                                                  *
+  *                                                                  *
+  * Authors: P. Mastrolia, G. Ossola, T. Reiter and F. Tramontano    *
+  *                                                                  *
+  * pierpaolo.mastrolia@cern.ch                                      *
+  * gossola@citytech.cuny.edu                                        *
+  * reiterth@mpp.mpg.de                                              *
+  * francesco.tramontano@cern.ch                                     *
+  *                                                                  *
+  *  For details please see: arXiv:1006.0710                         *
+  *                                                                  *
+  *  On the web:  http://cern.ch/samurai                             *
+  *                                                                  *
+  ********************************************************************
+  *                                                                  *
+  * output files: <output.log>   [ for verbosity.gt.0 ]              *
+  *                                                                  *
+  *               <bad.points>   [ for itest.gt.0     ]              *
+  *                                                                  *
+  ********************************************************************
+########################################################################
+#                                                                      #
+#                     You are using OneLOop-2.2.1                      #
+#                                                                      #
+# for the evaluation of 1-loop scalar 1-, 2-, 3- and 4-point functions #
+#                                                                      #
+# author: Andreas van Hameren <hamerenREMOVETHIS@ifj.edu.pl>           #
+#   date: 07-09-2011                                                   #
+#                                                                      #
+# Please cite                                                          #
+#    A. van Hameren,                                                   #
+#      Comput.Phys.Commun. 182 (2011) 2427-2438, arXiv:1007.4716       #
+#    A. van Hameren, C.G. Papadopoulos and R. Pittau,                  #
+#      JHEP 0909:106,2009, arXiv:0903.4665                             #
+# in publications with results obtained with the help of this program. #
+#                                                                      #
+########################################################################
++----------------------------------------------------------------------+
+|   __   __   ___   __   __  __                  GoSam                 |
+|  / _) /  \ / __) (  ) (  \/  )         An Automated One-Loop         |
+| ( (/\( () )\__ \ /__\  )    (         Matrix Element Generator       |
+|  \__/ \__/ (___/(_)(_)(_/\/\_)          Version 1.0 Rev: 228         |
+|                                                                      |
+|                                (c) The GoSam Collaboration 2011-2013 |
+|                                                                      |
+|                AUTHORS:                                              |
+|                * Gavin Cullen         <gavin.cullen@desy.de>         |
+|                * Nicolas Greiner      <greiner@mpp.mpg.de>           |
+|                * Gudrun Heinrich      <gudrun@mpp.mpg.de>            |
+|                * Gionata Luisoni      <luisonig@mpp.mpg.de>          |
+|                * Pierpaolo Mastrolia  <pierpaolo.mastrolia@cern.ch>  |
+|                * Giovanni Ossola      <gossola@citytech.cuny.edu>    |
+|                * Thomas Reiter        <reiterth@mpp.mpg.de>          |
+|                * Francesco Tramontano <francesco.tramontano@cern.ch> |
+|                                                                      |
+|                                                                      |
+|    This program is free software: you can redistribute it and/or modif
+|    it under the terms of the GNU General Public License as published b
+|    the Free Software Foundation, either version 3 of the License, or |
+|    (at your option) any later version.                               |
+|                                                                      |
+|    This program is distributed in the hope that it will be useful,   |
+|    but WITHOUT ANY WARRANTY; without even the implied warranty of    |
+|    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the     |
+|    GNU General Public License for more details.                      |
+|                                                                      |
+|    You should have received a copy of the GNU General Public License |
+|    along with this program.  If not, see <http://www.gnu.org/licenses/
+|                                                                      |
+|    Scientific publications prepared using the present version of     |
+|    GoSam or any modified version of it or any code linking to        |
+|    GoSam or parts of it should make a clear reference to the publicati
+|                                                                      |
+|        G. Cullen et al.,                                             |
+|        ``Automated One-Loop Calculations with GoSam'',               |
+|        arXiv:1111.2034 [hep-ph]                                      |
++----------------------------------------------------------------------+
+  powheginput keyword kappa_ghb            absent; set to   -1000000.0000000000     
+  powheginput keyword kappa_ght            absent; set to   -1000000.0000000000     
+  powheginput keyword kappa_ghz            absent; set to   -1000000.0000000000     
+  **** Minimum maxalr allowed:         1800  *********
+  **** Number of born graphs:           120
+  **** Number of real graphs:           700
+  **** Number of regular regions:           0
+  powheginput keyword softtest             absent; set to   -1000000.0000000000     
+  powheginput keyword colltest             absent; set to   -1000000.0000000000     
+  powheginput keyword chklimseed           absent; set to   -1000000.0000000000     
+  powheginput keyword tinyForLims          absent; set to   -1000000.0000000000     
+  powheginput keyword complexpolescheme    absent; set to   -1000000.0000000000     
+  powheginput keyword charmthrpdf          absent; set to   -1000000.0000000000     
+  powheginput keyword bottomthrpdf         absent; set to   -1000000.0000000000     
+ ===============================
+ LHAPDF called in POWHEG
+ pdf cutoff factor =    1.0000000000000000     
+ pdf cutoff [GeV] =    1.6499999999999999     
+ ===============================
+  powheginput keyword runningscales        absent; set to   -1000000.0000000000     
+ ****************************************
+ *******          MINLO ACTIVE    *******
+ ****************************************
+ *******     FIXED SCALES!          *****
+ ****************************************
+ ****************************************
+ **   mur=muf=MH+MZ                    **
+ ****************************************
+ ****************************************
+  powheginput keyword compare_vecsb_ep     absent; set to   -1000000.0000000000     
+ RM48 INITIALIZED:        42         572         0
+ RM48IN SKIPPING OVER             572
+ Writing bornequiv file...
+ Done
+  powheginput keyword writeequivfile       absent; set to   -1000000.0000000000     
+  powheginput keyword compare_vecsr_ep     absent; set to   -1000000.0000000000     
+ RM48 INITIALIZED:        42         860         0
+ RM48IN SKIPPING OVER             860
+ Writing realequivregions-btl file...
+ Done
+  powheginput keyword olddij               absent; set to   -1000000.0000000000     
+  powheginput keyword factsc2min           absent; set to   -1000000.0000000000     
+  powheginput keyword frensc2min           absent; set to   -1000000.0000000000     
+  powheginput keyword sudscalevar          set to    1.0000000000000000     
+ RM48 INITIALIZED:        42           0         0
+  POWHEG:  
+  Check of soft/collinear limits performed
+  Results in file pwhg_checklimits
+  powheginput keyword xgriditeration       set to    1.0000000000000000     
+
+  POWHEG: initialization
+  Computing the integral of the absolute value
+  of the cross section to set up the adaptive grid
+ RM48 INITIALIZED:  54217137           0         0
+ RM48 INITIALIZED: 474440651           0         0
+  powheginput keyword ncall1               set to    100000.00000000000     
+  powheginput keyword ncall1rm             absent; set to   -1000000.0000000000     
+  powheginput keyword itmx1                set to    1.0000000000000000     
+  powheginput keyword itmx1rm              absent; set to   -1000000.0000000000     
+  result +- errtot (picobarn) for each iteration
+  powheginput keyword fixedgrid            absent; set to   -1000000.0000000000     
+  powheginput keyword btildeborn           absent; set to   -1000000.0000000000     
+  powheginput keyword btildevirt           absent; set to   -1000000.0000000000     
+  powheginput keyword btildecoll           absent; set to   -1000000.0000000000     
+  powheginput keyword btildereal           absent; set to   -1000000.0000000000     
+  powheginput keyword bornsuppfactV        absent; set to   -1000000.0000000000     
+  powheginput keyword ptVlow               absent; set to   -1000000.0000000000     
+  powheginput keyword ptVhigh              absent; set to   -1000000.0000000000     
+  powheginput keyword Vstep                absent; set to   -1000000.0000000000     
+Thanks for using LHAPDF 6.2.1. Please make sure to cite the paper:
+  Eur.Phys.J. C75 (2015) 3, 132  (http://arxiv.org/abs/1412.7420)
+  powheginput keyword compare_vecsv_ep     absent; set to   -1000000.0000000000     
+ RM48 INITIALIZED: 474440651          28         0
+ RM48IN SKIPPING OVER              28
+ Writing virtequiv file...
+ Done
+  powheginput keyword btlscalereal         absent; set to   -1000000.0000000000     
+  powheginput keyword btlscalect           absent; set to   -1000000.0000000000     
+   1.8552239943707121E-002   8.9391876270417472E-005
+  Importance sampling x grids generated and stored
+ powheginput WARNING: unused variable hdecaymode          
+ powheginput WARNING: unused variable use-old-grid        
+ powheginput WARNING: unused variable use-old-ubound      
+ powheginput WARNING: unused variable ncall2              
+ powheginput WARNING: unused variable itmx2               
+ powheginput WARNING: unused variable foldcsi             
+ powheginput WARNING: unused variable foldy               
+ powheginput WARNING: unused variable foldphi             
+ powheginput WARNING: unused variable nubound             
+ powheginput WARNING: unused variable nohad               
+Workdir after run:
+total 22216
+-rw-r--r--. 1 jiyoo zh       49 Sep 12 12:14 JHUGen.input
+-rw-r--r--. 1 jiyoo zh    55253 Sep 14 15:02 pwg-rwl.dat
+-rwxr-xr-x. 1 jiyoo zh 20630688 Sep 14 15:18 pwhg_main
+-rw-r--r--. 1 jiyoo zh        3 Sep 14 15:29 pwgseeds.dat
+-rw-r--r--. 1 jiyoo zh     2486 Sep 14 15:29 powheg.input
+-rw-------. 1 jiyoo zh     2941 Sep 14 15:36 jiyoo.cc
+-rwxr-xr-x. 1 jiyoo zh     2773 Sep 14 15:36 condor_exec.exe
+drwx------. 3 jiyoo zh       17 Sep 14 15:36 var
+drwx------. 2 jiyoo zh        6 Sep 14 15:36 tmp
+-rw-r--r--. 1 jiyoo zh      204 Sep 14 15:36 _condor_stderr
+-rw-r--r--. 1 jiyoo zh       56 Sep 14 15:36 fort.7
+drwxr-xr-x. 2 jiyoo zh       34 Sep 14 15:36 BadPoints
+-rw-r--r--. 1 jiyoo zh   203840 Sep 14 15:36 FlavRegList
+-rw-r--r--. 1 jiyoo zh     8655 Sep 14 15:36 bornequiv-0001
+-rw-r--r--. 1 jiyoo zh   120895 Sep 14 15:36 realequivregions-btl-0001
+-rw-r--r--. 1 jiyoo zh  1478434 Sep 14 15:36 pwhg_checklimits-0001
+-rw-r--r--. 1 jiyoo zh     8743 Sep 14 15:36 virtequiv-0001
+-rw-r--r--. 1 jiyoo zh    14292 Sep 14 15:53 pwggridinfo-btl-xg1-0001.dat
+-rw-r--r--. 1 jiyoo zh      229 Sep 14 15:53 pwgcounters-st1-0001.dat
+-rw-r--r--. 1 jiyoo zh   157486 Sep 14 15:53 pwg-xg1-0001-btlgrid.top
+-rw-r--r--. 1 jiyoo zh    18545 Sep 14 15:53 _condor_stdout
+'pwg-xg1-0001-btlgrid.top' -> '/afs/cern.ch/user/j/jiyoo/CMSSW_10_6_21/src/genproductions/bin/Powheg/boosted/./pwg-xg1-0001-btlgrid.top'
+'pwgcounters-st1-0001.dat' -> '/afs/cern.ch/user/j/jiyoo/CMSSW_10_6_21/src/genproductions/bin/Powheg/boosted/./pwgcounters-st1-0001.dat'
+'pwggridinfo-btl-xg1-0001.dat' -> '/afs/cern.ch/user/j/jiyoo/CMSSW_10_6_21/src/genproductions/bin/Powheg/boosted/./pwggridinfo-btl-xg1-0001.dat'
