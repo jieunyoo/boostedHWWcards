@@ -19,3 +19,5 @@ These commands were used:
     python ./run_pwg_condor.py -p 0 -i powheg.input -g ~/JHUGen.input -m HZJ -f boosted | tee output.txt
 
     python ./run_pwg_condor.py -p 1 -x 1 -i powheg.input -g ~/JHUGen.input -m HZJ -f boosted -q longlunch  
+
+Note: error in error log can be ignored
